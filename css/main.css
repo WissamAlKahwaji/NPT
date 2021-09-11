@@ -1,0 +1,333 @@
+/*Start NavBar*/
+::selection {
+	background-color: #992323;
+	color: #eee;
+}
+a::selection {
+	color: #eee;
+	background-color: #333;
+}
+
+.bar-css {
+	top: 0;
+	background: #333;
+	font-family: Montserrat;
+}
+.navbar-nav a {
+	text-decoration: none;
+	color: #eee;
+}
+.navbar-nav a:hover {
+	color: #7e7e7e;
+}
+.NPT {
+	width: 70px;
+	height: auto;
+	margin-left: 10px;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+	background: #333;
+}
+.navbar-nav {
+	margin-left: 50px;
+}
+.barz a {
+	color: #eee;
+}
+a.navbar-brand.NPT {
+	margin-left: 107px;
+	margin-right: 107px;
+}
+.navbar-nav {
+	margin-inline-start: auto;
+	margin-right: 400px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+/*End NavBar*/
+
+/* Start Footer */
+
+.footer {
+	background: #333;
+	color: #eee;
+	padding: 20px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	position: inherit;
+}
+.randoms-questions {
+	background-color: #eee;
+	width: 100%;
+	height: 200px;
+}
+/*End Footer */
+
+/*Start Body*/
+body {
+	background-color: #eee;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*End Body*/
+
+/* Start-Postes */
+.home-page .post-content {
+	margin: 15px;
+	margin-top: 15px;
+	padding: 15px;
+}
+.home-page .imgz {
+	width: 100%;
+	height: 220px;
+	border-radius: 10px 10px 0 0;
+}
+.home-page .main-post {
+	background-color: #fff;
+	border: 1px solid #d8d8d8;
+	margin-bottom: 25px;
+	margin-top: 40px;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.home-page .main-post a {
+	color: #565656;
+	text-decoration: none;
+}
+.home-page .main-post a:hover {
+	color: #242424;
+}
+.home-page .main-post a:active {
+	color: #992323;
+}
+.home-page .post-content {
+	margin-top: -9px;
+}
+.home-page .post-title {
+	color: #333;
+	margin-top: 16px;
+	margin-left: 25px;
+}
+.post-pagination {
+	margin: 20px auto 0px;
+	margin-top: 50px;
+	text-align: center;
+}
+.post-pagination a,
+.post-pagination span {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #fff;
+	border-radius: 8px;
+	text-decoration: none;
+	cursor: alias;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.post-pagination a:hover {
+	background: #5b99bc;
+	color: #fff;
+}
+.post-pagination a:active {
+	color: #fff;
+	background: #992323;
+	font-size: 14px;
+	border-radius: 10px;
+}
+.post-pagination span {
+	background: #3d7974;
+	color: #fff;
+	cursor: not-allowed;
+}
+span.page-numbers.dots {
+	background: #242424;
+}
+.home-page .read-more {
+	margin-left: 30px;
+	margin-bottom: 30px;
+	margin-top: -18px;
+}
+.home-page .read-more a {
+	border: 1px solid #fff;
+	color: #eee;
+	padding: 10px;
+	background: #5b99bc;
+	border-radius: 20px 0px 20px;
+}
+.home-page .read-more a:hover {
+	background-color: #333;
+	color: #eee;
+	font-size: 15px;
+}
+
+.home-page .read-more a:active {
+	color: white;
+	border: 1px solid #992323;
+	border-radius: 20px 0px 20px;
+	background-color: #992323;
+}
+/*End Postes*/
+/*Start Single Post*/
+.singl-page .random-posts {
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-left: -15px;
+}
+.singl-page .random-img {
+	width: 200px;
+	height: 150px;
+	border-radius: 10px 10px 0 0;
+}
+.singl-page .main-post {
+	background-color: #fff;
+	border: 1px solid #d8d8d8;
+	margin-bottom: 25px;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.singl-page .post-content {
+	margin: 15px;
+	margin-top: 15px;
+	padding: 15px;
+}
+.singl-page .post-content {
+	margin-top: -9px;
+}
+.singl-page .post-title {
+	color: #333;
+	margin-top: 16px;
+	margin-left: 25px;
+}
+.singl-page .post-pagination {
+	margin: 20px auto 0px;
+	text-align: center;
+	margin-top: 50px;
+}
+.singl-page .category {
+	padding-top: 20px;
+}
+.singl-page .category a {
+	background: #5b99bc;
+	border: 3px solid #5b99bc;
+	border-radius: 10px 0px 10px 0px;
+	color: #eee;
+	text-decoration: none;
+}
+.singl-page .category a:hover {
+	background-color: #5b99bc;
+	color: #eee;
+	font-size: 15px;
+	cursor: alias;
+}
+.singl-page .category a:active {
+	color: white;
+	border: 2px solid #992323;
+	border-radius: 8px 0px 8px 0px;
+	background-color: #992323;
+}
+.singl-page .tags {
+	padding-top: 20px;
+}
+.singl-page .tags a {
+	background: #5b99bc;
+	border: 3px solid #5b99bc;
+	border-radius: 10px 0px 10px 0px;
+	color: #eee;
+	text-decoration: none;
+}
+.singl-page .tags a:hover {
+	background-color: #5b99bc;
+	color: #eee;
+	font-size: 15px;
+	cursor: alias;
+}
+.singl-page .tags a:active {
+	color: white;
+	border: 2px solid #992323;
+	border-radius: 8px 0px 8px 0px;
+	background-color: #992323;
+}
+/*End Single Post*/
+
+/*Start ERROR Page */
+.page-404 {
+	width: 50%;
+	margin: auto;
+	padding-top: 7%;
+}
+/*End ERROR Page */
+
+/*Start Category Page*/
+.category-info .category-title {
+	font-size: 20px;
+}
+.category-info .category-description {
+	text-align: center;
+}
+.category-info {
+	background-color: #262e32;
+	color: #eee;
+	height: 350px;
+	margin-top: 100px;
+	padding-top: 70px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.category-info #searchsubmit {
+	height: 41px;
+	width: 70px;
+}
+.category-info .searchform {
+	text-align: center;
+}
+.category-info #s {
+	width: 500px;
+	height: 40px;
+}
+/*End Category Page */
+/*Start  Breadcrumb Single-Page*/
+.single-page .breadcrumb {
+	margin: 20px 0 20px;
+	background: #fff;
+	width: 400px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* End  Breadcrumb Single-Page*/
+.breadcrumb a {
+	color: #5b99bc;
+	text-decoration: none;
+}
+.breadcrumb a:hover {
+	color: #333;
+}
+/*Start  Breadcrumb Category*/
+.category .breadcrumb {
+	margin: 30px 0 0;
+	background: #fff;
+	width: 400px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*End  Breadcrumb Category*/
+/*Start Slide-Show*/
+.Interface-home {
+}
+.search-home-page {
+}
+.Interface {
+	height: 400px;
+}
+.Interface .searchform {
+	text-align: center;
+	margin-top: -200px;
+}
+/*End Slide-Show*/
+
+/* Explanation in JS tab */
