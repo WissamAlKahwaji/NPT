@@ -13,7 +13,7 @@
                         
                     the_post(); ?>
                 
-                    <div class="main-post single-post col-md-9">
+                    <div class="main-post single-post col-md-12">
                         <h3 class="post-title"><?php the_title() ?></h3>
                             <div class="post-content">
                             <?php the_content() ?>

@@ -8,7 +8,7 @@
             <br>
                 <form role="search" method="get" id="searchform" class="searchform" action=".">
 					<label class="screen-reader-text" for="s">Search for:</label>
-					<input autocomplete="off" type="search" placeholder="Search" aria-label="Search" value="" name="s" id="s" >
+					<input autocomplete="off" type="search" placeholder="Write here the phone model number" aria-label="Search" value="" name="s" id="s" >
                     <input type="submit" id="searchsubmit" value="Search">
                     </form>
             </div>
